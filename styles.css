@@ -1,0 +1,131 @@
+body {
+   font-weight: 800;
+   width: auto;
+   background-color: #f9fafc;
+   padding: 0 22px;
+}
+
+h1, h5, p, a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800 , normal;
+
+}
+.navbar ul li {
+    padding: 0 8px;
+    top: 50px;
+    right: 0px;
+
+}
+.nav-title{
+    color: #69696a;
+    display: inline-block;
+}
+
+a {
+    color:#69696a;
+    font-weight: 800;
+}
+
+p {
+    color: 69696a;
+    font-weight: 800;
+    border-left: 2px solid #69696a;
+    padding-left: 15px;
+    width: 50%;
+
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+        
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    float: right;  
+    margin-left: 700px;
+    
+}
+a:hover {
+    background-color: black;
+    color:  #ffffff;
+    text-align: center;
+    padding: 8 25px;
+    border-radius: 18px;
+    display: block;
+    
+}
+
+a {
+    text-decoration: none;
+     }
+    
+    .orange-dot {
+        height: 250px;
+        width: 250px;
+        background-color: rgba(247, 193, 162, 0.7);
+        border-radius: 50%;
+        display: inline-block;
+        margin-right: 2%;
+        z-index: -5;
+        position: absolute;
+        bottom: 100px;
+  
+    
+      }
+      .purple-dot {
+        height: 170px;
+        width: 170px;
+        background-color: rgba(207, 130, 213, 0.6);
+        border-radius: 50%;
+        display: inline-block;
+        margin-right: 2%;
+        z-index: 5;
+        position: absolute;
+      }
+      .pink-dot {
+        height: 350px;
+        width: 350px;
+        background-color: rgba(247, 136, 167, 0.6);
+        border-radius: 50%;
+        display: inline-block;
+        margin-right: 2%;
+        position: absolute;
+        left: 875px;
+        
+      }
+      .bottom-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  
+    
+.primary-button {
+    background-color: black;
+    color:  #ffffff;
+    text-align: center;
+    padding: 12px;
+    border-radius: 100px;
+    display: block;
+    
+
+}
+.right-container {
+    display: flex;
+    justify-content: right;
+    margin-top: 3%;
+    
+}
+.container {
+    display: flex;
+    height: 450px;
+    margin-top: 5%;
+    
+}
